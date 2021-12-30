@@ -1,0 +1,26 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+.guessSubmit{
+    background:green;
+    color:white;
+    padding:5px;
+    margin:5px;
+    border-radius:.5rem;
+    border:none;
+    box-shadow:3px 3px 6px black;
+}
+.guessSubmit:hover{
+    background:orange;
